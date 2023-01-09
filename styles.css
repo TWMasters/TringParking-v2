@@ -11,9 +11,12 @@ body {
 
 header {
   color: #FBDE49;
-  text-shadow: 0 0 2px black;
-  background-color: #C7EAFB;
   border-top: 1px solid #C7EAFB;  
+}
+
+.title-container {
+  border: 1px solid #C7EAFB;  
+  background: #C7EAFB calc(50% - 130px) 0%/contain url('deer-logo-2.png') no-repeat;
 }
 
 footer {
@@ -22,22 +25,20 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
-
 }
 
 h1 {
   font-size: 3em;
+  text-shadow: 0 0 2px black;
+  margin-left: 5%;
 }
 
 nav {
   background-color: #6CAF6D;
-  text-align: left;
   padding: 5px;
-  padding-left: 20px;
 }
 
 a {
   margin: 15px;
-  font-size: large;
-  color: #FBDE49;
+  font-size: larger;
 }
