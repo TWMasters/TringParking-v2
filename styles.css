@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  color: #FBDE49;
+  text-shadow: 0 0 1px black;
+  background-color: #C7EAFB;
+  border-top: 1px solid #C7EAFB;  
+}
+
+nav {
+  background-color: #6CAF6D;
+  text-align: left;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+a {
+  margin: 15px;
+  font-size: large;
+  color: #FBDE49;
+
+}
