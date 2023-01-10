@@ -42,3 +42,8 @@ a {
   margin: 15px;
   font-size: larger;
 }
+
+.slide {
+  width: 100%;
+  overflow: scroll;
+}
