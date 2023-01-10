@@ -16,7 +16,7 @@ header {
 
 .title-container {
   border: 1px solid #C7EAFB;  
-  background: #C7EAFB calc(50% - 130px) 0%/contain url('deer-logo-2.png') no-repeat;
+  background: #C7EAFB calc(50% - 55px) 0%/contain url('deer-logo-2.png') no-repeat;
 }
 
 footer {
