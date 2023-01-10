@@ -1,17 +1,22 @@
+html {
+  min-width: 900px;
+  min-height: 600px;
+}
+
 html, body {
   margin: 0;
-  height: 100%;
+  height: 100%;  
 }
 
 body {
   position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center
+  text-align: center;
 }
 
 header {
   color: #FBDE49;
-  border-top: 1px solid #C7EAFB;  
+  border-top: 1px solid #C7EAFB;
 }
 
 .title-container {
@@ -43,7 +48,10 @@ a {
   font-size: larger;
 }
 
+.pic-container-outer {
+  overflow: hidden;
+}
+
 .slide {
-  width: 100%;
-  overflow: scroll;
+  width: 100%;  
 }
