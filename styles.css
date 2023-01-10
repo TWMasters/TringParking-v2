@@ -1,35 +1,34 @@
-html {
-  min-width: 900px;
-  min-height: 600px;
-}
-
 html, body {
   margin: 0;
   height: 100%;  
 }
 
+html {
+  min-width: 900px;
+  min-height: 600px;
+}
+
 body {
-  position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
   color: #FBDE49;
-  border-top: 1px solid #C7EAFB;
+  width: 100%;
 }
 
 .title-container {
   border: 1px solid #C7EAFB;  
-  background: #C7EAFB calc(50% - 55px) 0%/contain url('deer-logo-2.png') no-repeat;
+  background: #C7EAFB calc(50% - 17px) 0%/contain url('deer-logo-2.png') no-repeat;
 }
 
 footer {
   color: #FBDE49;
   background-color: #6CAF6D;
   width: 100%;
-  position: absolute;
-  bottom: 0;
 }
 
 h1 {
@@ -48,10 +47,17 @@ a {
   font-size: larger;
 }
 
-.pic-container-outer {
+.pic-container {
+  width: 100%;
+  flex-grow: 1;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /*background-color: rgba(108, 175, 109, 0.3);*/
 }
 
 .slide {
-  width: 100%;  
+  opacity: 0.9;
 }
