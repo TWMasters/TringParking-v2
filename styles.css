@@ -10,19 +10,19 @@ html {
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #FBDE49;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
 header {
-  color: #FBDE49;
   width: 100%;
 }
 
 .title-container {
   border: 1px solid #C7EAFB;  
-  background: #C7EAFB calc(50% - 17px) 0%/contain url('Images/deer-logo-2.png') no-repeat;
+  background: #C7EAFB calc(50% - 40px) 0%/contain url('Images/deer-logo-2.png') no-repeat;
 }
 
 footer {
@@ -34,7 +34,6 @@ footer {
 h1 {
   font-size: 3em;
   text-shadow: 0 0 3px black;
-  margin-left: 5%;
 }
 
 nav {
@@ -52,12 +51,22 @@ a {
   flex-grow: 1;
   overflow: hidden;
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
-
   /*background-color: rgba(108, 175, 109, 0.3);*/
 }
 
-.slide {
-  opacity: 0.9;
+.text-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(36, 36, 36, 0.8);
+
+  text-align: left;
+  font-size: larger;
+  padding-top: 5%;
+  padding-left: 35%;
 }
