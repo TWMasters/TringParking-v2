@@ -10,7 +10,8 @@ html {
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #FBDE49;
+  /* color: #FBDE49; */
+  color: white;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -21,31 +22,29 @@ header {
 }
 
 .title-container {
-  border: 1px solid #C7EAFB;  
-  background: #C7EAFB calc(50% - 40px) 0%/contain url('Images/deer-logo-2.png') no-repeat;
-}
-
-footer {
-  color: #FBDE49;
-  background-color: #6CAF6D;
-  width: 100%;
+  /*border: 1px solid #C7EAFB;  */
+  border: 1px solid rgb(150, 150, 150);
+  background: rgb(150, 150, 150) 30px 0%/contain url('Images/deer-logo-2.png') no-repeat;
 }
 
 h1 {
   font-size: 3em;
-  text-shadow: 0 0 3px black;
 }
 
 nav {
-  background-color: #6CAF6D;
+  background-color: #5a965b;
   padding: 5px;
 }
 
 a {
   margin: 15px;
   font-size: larger;
+  font-weight: bold;
 }
 
+/*CONTENTS*/
+
+/*SLIDESHOW*/
 .pic-container {
   width: 100%;
   flex-grow: 1;
@@ -66,6 +65,7 @@ a {
   background-color: rgba(36, 36, 36, 0.8);
 }
 
+/*
 .text-overlay {
   position: absolute;
   width: 100%;
@@ -76,10 +76,13 @@ a {
   display: flex;
   justify-content: center;
 }
+*/
 
 .slide {
   width: 100vw;
 }
+
+/*TEXT*/
 
 .text-container {
   text-align: left;
@@ -103,4 +106,11 @@ p {
 
 .price {
   font-size: 1.5em;
+}
+
+/*FOOTER*/
+footer {
+  color: white;
+  background-color: rgb(75, 75, 75);
+  width: 100%;
 }
