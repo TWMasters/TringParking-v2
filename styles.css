@@ -80,6 +80,15 @@ nav {
   width: 100vw;
 }
 
+.caption__text {
+  background:rgb(75, 75, 75);
+  position: absolute;
+  bottom: 20%;
+  left: 60px;
+  font-size: 3em;
+  padding: 15px;
+}
+
 /*TEXT*/
 
 .text-container {
