@@ -19,20 +19,26 @@ body {
 
 header {
   width: 100%;
+  display: flex;
+  background: #5a965b;
+  align-items: center;
+  padding: 10px 0px;
 }
 
-.title-container {
-  /*border: 1px solid #C7EAFB;  */
-  border: 1px solid rgb(150, 150, 150);
-  background: rgb(150, 150, 150) 30px 0%/contain url('Images/deer-logo-2.png') no-repeat;
+.logo-container {
+  margin-left: 5%;
+  height: 100%;
+  width: 10%; 
+  background: 50% 0%/contain url('Images/deer-logo-2.png') no-repeat;
 }
 
 h1 {
-  font-size: 3em;
+  text-align: left;
+  font-size: 3rem;
+  flex-grow: 1;
 }
 
 nav {
-  background-color: #5a965b;
   padding: 5px;
 }
 
