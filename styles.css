@@ -87,6 +87,7 @@ nav {
   left: 60px;
   font-size: 3em;
   padding: 15px;
+  border-radius: 5px;
 }
 
 /*TEXT*/
@@ -94,7 +95,8 @@ nav {
 .text-container {
   font-size: larger;
   background:#5a965b;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
+
 }
 
 .price {
