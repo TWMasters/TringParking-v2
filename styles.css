@@ -4,8 +4,8 @@ html, body {
 }
 
 html {
-  min-width: 900px;
-  min-height: 600px;
+  min-width: 1400px;
+  min-height: 1000px;
 }
 
 body {
@@ -50,9 +50,17 @@ nav {
 }
 
 .page__link {
+  height: 100%;
   margin-right: 30px;
   font-size: larger;
   font-weight: bold;
+  transition: color .2s;
+}
+
+.page__link:hover {
+  color:#fcde47;
+  cursor: pointer;
+  font-weight: bolder;
 }
 
 /*CONTENTS*/
@@ -65,7 +73,6 @@ nav {
   display: flex;
   position: relative;
   background-color: white;
-  align-items: center;
 }
 
 .overlay {
@@ -79,12 +86,12 @@ nav {
 
 .slide {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 
 .caption__text {
   background:#c5ae39;
-  color: black;
+  color: white;
   position: absolute;
   bottom: 20%;
   left: 60px;
