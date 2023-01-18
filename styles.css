@@ -111,10 +111,8 @@ nav {
 /*TEXT*/
 
 .text-container {
-  font-size: larger;
+  font-size: 1.5em;
   background:#5a965b;
-  padding-bottom: 30px;
-
 }
 
 .price {
@@ -127,7 +125,19 @@ a {
 
 /*FOOTER*/
 footer {
+  padding: 10px 0;
+  font-size: small;
   color: white;
   background-color: rgb(75, 75, 75);
   width: 100%;
+}
+
+.legal__link {
+  margin: 0 1px;
+}
+
+.legal__link:hover {
+  color:#fcde47;
+  cursor: pointer;
+  font-weight: bolder;
 }
