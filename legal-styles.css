@@ -4,6 +4,17 @@ body  {
   text-align: justify;
 }
 
+
+h1 {
+  margin-bottom: 0;
+}
+
 p {
   font-size: smaller;
+  line-height: 1em;
 }
+
+.sub-heading {
+  margin-top: 2em;
+}
+
