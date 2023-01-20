@@ -14,6 +14,11 @@ p {
   line-height: 1em;
 }
 
+.updated {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 .sub-heading {
   margin-top: 2em;
 }
