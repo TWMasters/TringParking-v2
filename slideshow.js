@@ -5,6 +5,10 @@ window.onload = function () {
   document.getElementById('terms-link').onclick = function() {
     legalClick('terms.html');
   }
+  document.getElementById('privacy-link').onclick = function() {
+    legalClick('privacy.html');
+  }
+
 }
 
 function carousel() {
