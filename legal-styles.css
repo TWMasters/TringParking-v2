@@ -19,6 +19,14 @@ ol {
   list-style-position: inside;
 }
 
+li {
+  font-size: smaller;
+}
+
+ul li {
+  margin-bottom: 1em;
+}
+
 .updated {
   margin-top: 2em;
   margin-bottom: 2em;
