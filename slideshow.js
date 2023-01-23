@@ -8,6 +8,9 @@ window.onload = function () {
   document.getElementById('privacy-link').onclick = function() {
     legalClick('privacy.html');
   }
+  document.getElementById('legal-link').onclick = function() {
+    legalClick('legal.html');
+  }
 
 }
 
