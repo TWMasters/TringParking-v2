@@ -49,15 +49,16 @@ nav {
   margin-right: 30px;
 }
 
-.page__link {
+.page-link {
   height: 100%;
   margin-right: 30px;
   font-size: larger;
   font-weight: bold;
   transition: color .2s;
+  text-decoration: none;
 }
 
-.page__link:hover {
+.page-link:hover {
   color:#fcde47;
   cursor: pointer;
   font-weight: bolder;
@@ -66,7 +67,7 @@ nav {
 /*CONTENTS*/
 
 /*SLIDESHOW*/
-.pic-container {
+.content-container {
   width: 100%;
   flex-grow: 1;
   overflow: hidden;
@@ -133,7 +134,7 @@ tring-footer {
 }
 
 .legal-link {
-  margin: 0 1px;
+  margin: 0 5px;
 }
 
 .legal-link:hover {

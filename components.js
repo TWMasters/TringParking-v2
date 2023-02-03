@@ -6,9 +6,9 @@ headerTemplate.innerHTML =
   '</div>' +
   '<h1 class="title">PARKING AT TRING STATION</h1>' +
   '<nav>' +
-    '<a class="page__link">Location Map</a>' +
-    '<a class="page__link">Parking Bay Map</a>' +
-    '<a class="page__link">Contact</a>' +
+    '<a class="page-link">Location Map</a>' +
+    '<a class="page-link" href="parkingbay.html">Parking Bay Map</a>' +
+    '<a class="page-link">Contact</a>' +
   '</nav>';
 
 const footerTemplate = document.createElement('template');
