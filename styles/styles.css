@@ -16,7 +16,7 @@ body {
   flex-direction: column;
 }
 
-TringHeader {
+tring-header {
   width: 100%;
   height: 7vh;
   display: flex;

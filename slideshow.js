@@ -1,6 +1,7 @@
 var slideIndex = 0;
 
 window.onload = function () {
+  loadHeader();
   console.log('Loaded slideshow');
   carousel();
   document.getElementById('terms-link').onclick = function() {

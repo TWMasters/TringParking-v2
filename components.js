@@ -1,4 +1,4 @@
-/*
+
 const template =  document.createElement('template');
 template.innerHTML = 
   '<div class="logo__container">' +
@@ -14,15 +14,16 @@ template.innerHTML =
 class TringHeader extends HTMLElement  {
   constructor() {
     super();
+
     this.appendChild(template.content.cloneNode(true));
   }
 }
 
-*/
 
-window.onload = function() {
+
+function loadHeader() {
   console.log('Loaded Templates')
-  window.customElements.define('tringheader', TringHeader);
+  window.customElements.define('tring-header', TringHeader);
 }
 
 
