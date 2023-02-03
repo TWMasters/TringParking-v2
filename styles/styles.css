@@ -16,7 +16,7 @@ body {
   flex-direction: column;
 }
 
-header {
+TringHeader {
   width: 100%;
   height: 7vh;
   display: flex;
@@ -38,7 +38,7 @@ header {
   justify-content: center;
 }
 
-h1 {
+.title {
   text-align: left;
   font-size: 2.5rem;
   flex-grow: 1;
@@ -132,11 +132,11 @@ footer {
   width: 100%;
 }
 
-.legal__link {
+.legal-link {
   margin: 0 1px;
 }
 
-.legal__link:hover {
+.legal-link:hover {
   color:#fcde47;
   cursor: pointer;
   font-weight: bolder;
