@@ -1,0 +1,17 @@
+footer {
+  padding: 10px 0;
+  font-size: small;
+  color: white;
+  background-color: rgb(75, 75, 75);
+  width: 100%;
+}
+
+footer a {
+  margin: 0 8px;
+}
+
+footer a:hover {
+  color:#fcde47;
+  cursor: pointer;
+  font-weight: bolder;
+}
