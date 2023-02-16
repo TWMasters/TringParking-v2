@@ -3,11 +3,6 @@ html, body {
   height: 100%;  
 }
 
-html {
-  min-width: 1400px;
-  min-height: 1000px;
-}
-
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;

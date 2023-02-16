@@ -1,9 +1,4 @@
 header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -89,8 +84,12 @@ header a:hover {
     white-space: normal;
   }
 
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
   header a {
-    display: block;
     margin-right: 0;
     margin-bottom: 5px;
   }
