@@ -17,12 +17,12 @@ a {
 
 /*CONTENTS*/
 .content-container {
-  width: 100%;
-  flex-grow: 1;
-  overflow: hidden;
+  flex: 1;
   display: flex;
-  position: relative;
+  flex-direction: column;
   background-color: rgb(220, 220, 220);
+  min-height: 750px;
+  overflow: hidden;
 }
 
 
