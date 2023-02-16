@@ -1,6 +1,7 @@
 .map-container {
+  flex: 1;
   display: flex;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   border: solid 2px red;
   padding: 40px;
@@ -8,7 +9,9 @@
 
 .map {
   display: grid;
-  width: 1000px;
   height: 1000px;
+  width: 1000px;
+  min-width: 1000px;
+  min-height: 1000px;
   border: solid 2px blue;
 }
