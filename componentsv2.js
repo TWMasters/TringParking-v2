@@ -19,7 +19,6 @@ function defineHeader() {
   '<nav>' +
     '<a class="page-link">Location Map</a>' +
     '<a class="page-link" href="parkingbay.html">Parking Bay Map</a>' +
-    '<a class="page-link">Contact</a>' +
   '</nav>';
 }
 
