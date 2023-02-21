@@ -55,7 +55,13 @@
 }
 
 .price {
-  margin: 0.75em;
+  margin: 0.5em;
+  margin-bottom: 0.25em;
+}
+
+.contact {
+  font-size: 0.75em;
+  margin-top: 0;
 }
 
 
