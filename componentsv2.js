@@ -13,8 +13,10 @@ function defineHeader() {
   const tringHeader = document.getElementById('tring-header');
   tringHeader.innerHTML =
   '<div class="title-container">' +
-    '<img src="Images/deer-logo-1.png" alt="" height="100%" class="deer__logo">' +
-    '<h1><a href="index.html">PARKING AT TRING STATION</a></h1>' +
+    '<a href="index.html">' +
+      '<img src="Images/deer-logo-1.png" alt="" height="100%" class="deer__logo">' +
+    '</a>' +
+    '<h1>PARKING AT TRING STATION</h1>' +
   '</div>' +  
   '<nav>' +
     '<a class="page-link">Location Map</a>' +

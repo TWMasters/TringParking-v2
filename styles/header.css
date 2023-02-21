@@ -29,10 +29,6 @@ header h1  {
   transition: color .2s;
 }
 
-header h1 a {
-  margin: 0;
-}
-
 header a {
   height: 100%;
   margin-right: 30px;
@@ -43,7 +39,7 @@ header a {
   transition: color .2s;
 }
 
-header h1:hover, header a:hover {
+header header a:hover {
   color:#fcde47;
   cursor: pointer;
   
