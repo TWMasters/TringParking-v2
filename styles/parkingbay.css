@@ -86,3 +86,10 @@
   grid-row-start: 5;
   grid-row-end: 10;
 }
+
+@media  (max-width: 1310px) {
+  .permit-left, .permit-right {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+}
