@@ -16,7 +16,7 @@ function defineHeader() {
     '<a href="index.html">' +
       '<img src="Images/deer-logo-1.png" alt="" height="100%" class="deer__logo">' +
     '</a>' +
-    '<h1>PARKING AT TRING STATION</h1>' +
+    '<h1>PARKING FOR TRING STATION</h1>' +
   '</div>' +  
   '<nav>' +
     '<a class="page-link" href="location.html">Location Map</a>' +

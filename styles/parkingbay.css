@@ -10,9 +10,8 @@
 
 .map {
   position: relative;
-  width: 60%;
-  height: 0;
-  padding-bottom: 60%;
+  width: 450px;
+  height: 450px;
 }
 
 .map-grid {
@@ -59,7 +58,12 @@
 .parking-spot {
   border-bottom: solid 4px black;
   font-weight: bold;
-  font-size: 4em;
+  font-size: 2em;
+}
+
+.permit-left, .permit-right {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }
 
 .permit-left {
@@ -87,9 +91,3 @@
   grid-row-end: 10;
 }
 
-@media  (max-width: 1310px) {
-  .permit-left, .permit-right {
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-  }
-}
