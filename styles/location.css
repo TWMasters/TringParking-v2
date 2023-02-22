@@ -1,0 +1,23 @@
+.location-container {
+  color: black;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 40px;
+}
+
+.map-1, .map-2 {
+  margin-bottom: 20px;
+
+}
+
+.map-1 {
+  width: 450px;
+}
+
+.map-2 {
+  width: 450px;
+  height: 450px;
+}
